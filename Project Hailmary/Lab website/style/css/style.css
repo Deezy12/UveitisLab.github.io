@@ -1,0 +1,76 @@
+body {
+    background-color: white;
+    color: black;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color: black;
+    font-weight: 700;
+}
+
+
+/*-----Navbar-----*/
+.navbar {
+    border-bottom: 3px solid #006633;
+    background-color: #fff;
+    text-decoration: none;
+    color: #000;
+    min-height: 67px;
+    font-weight: 700;
+  }
+
+.nav-link, .navbar-brand {
+    color: black;
+    font-weight: 700;
+}
+
+
+.navbar-brand:hover {
+    color: #0468CD;
+}
+
+.nav-link:hover {
+    color: #0468CD;
+}
+/*-----Navbar End-----*/
+
+.full-height {
+    min-height: 100vh;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    border-bottom: 2px solid rgba(255,255,255, 0.1);
+}
+
+.height {
+    height: 300px;
+    margin-top: 15%;
+}
+
+.work {
+    margin-top: 11%;
+}
+
+.box-size {
+    width: 100%;
+    height: 425px;
+    background-color: #eee;
+    cursor: pointer;
+}
+
+
+.bottom {
+    margin-bottom: 5%;
+}
+
+.color:hover {
+    background-color: #0468CD;
+    opacity: 40%;
+}
+
+.sizing {
+    height: 100%;
+}
